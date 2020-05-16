@@ -1,0 +1,6 @@
+command.menu.delete=Le menu %arg% a été supprimé
+command.menu.list.empty=Il n'y a pas de menu
+command.menu.list.list=Il y a %list% menu(s) :
+command.menu.open=Le menu %arg% a été ouvert
+command.menu.save=Le menu %arg% a été sauvegardé
+menu.does_not_exist=Le menu "%arg%" n'a pas été trouvé

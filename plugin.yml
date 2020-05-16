@@ -1,0 +1,24 @@
+name: Menus
+version: 1.0.0
+api-version: 1.13
+description: "A simple plugin to make menus."
+author: oscardoras
+main: org.bukkitplugin.menus.MenusPlugin
+permissions:
+  menus:
+    default: op
+    children:
+      menus.action: true
+      menus.command: true
+  menus.action:
+    default: true
+    children:
+      menus.action.interactcommand: true
+  menus.action.interactcommand:
+    default: true
+  menus.command:
+    default: op
+    children:
+      menus.command.menu: true
+  menus.command.menu:
+    default: op
