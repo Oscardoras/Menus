@@ -11,13 +11,13 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.permissions.Permission;
 import org.bukkitplugin.menus.Menu;
 import org.bukkitplugin.menus.Message;
-import org.bukkitutils.command.v1_14_3_V1.Argument;
-import org.bukkitutils.command.v1_14_3_V1.CommandRegister;
-import org.bukkitutils.command.v1_14_3_V1.CommandRegister.CommandExecutorType;
-import org.bukkitutils.command.v1_14_3_V1.LiteralArgument;
-import org.bukkitutils.command.v1_14_3_V1.arguments.EntitySelectorArgument;
-import org.bukkitutils.command.v1_14_3_V1.arguments.EntitySelectorArgument.EntitySelector;
-import org.bukkitutils.command.v1_14_3_V1.arguments.StringArgument;
+import org.bukkitutils.command.v1_15_V1.Argument;
+import org.bukkitutils.command.v1_15_V1.CommandRegister;
+import org.bukkitutils.command.v1_15_V1.LiteralArgument;
+import org.bukkitutils.command.v1_15_V1.CommandRegister.CommandExecutorType;
+import org.bukkitutils.command.v1_15_V1.arguments.EntitySelectorArgument;
+import org.bukkitutils.command.v1_15_V1.arguments.StringArgument;
+import org.bukkitutils.command.v1_15_V1.arguments.EntitySelectorArgument.EntitySelector;
 
 public final class MenuCommand {
 	private MenuCommand() {}
