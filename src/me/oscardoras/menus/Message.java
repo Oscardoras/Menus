@@ -1,6 +1,6 @@
-package org.bukkitplugin.menus;
+package me.oscardoras.menus;
 
-import org.bukkitutils.io.TranslatableMessage;
+import me.oscardoras.spigotutils.io.TranslatableMessage;
 
 public class Message extends TranslatableMessage {
 	

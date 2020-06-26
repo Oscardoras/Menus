@@ -1,4 +1,4 @@
-package org.bukkitplugin.menus;
+package me.oscardoras.menus;
 
 import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
@@ -13,8 +13,9 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
-import org.bukkitplugin.menus.commands.MenuCommand;
-import org.bukkitutils.BukkitPlugin;
+
+import me.oscardoras.menus.commands.MenuCommand;
+import me.oscardoras.spigotutils.BukkitPlugin;
 
 public final class MenusPlugin extends BukkitPlugin implements Listener {
 	

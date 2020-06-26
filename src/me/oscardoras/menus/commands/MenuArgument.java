@@ -1,13 +1,14 @@
-package org.bukkitplugin.menus.commands;
+package me.oscardoras.menus.commands;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
 import org.bukkit.inventory.Inventory;
-import org.bukkitplugin.menus.Menu;
-import org.bukkitplugin.menus.Message;
-import org.bukkitutils.command.v1_15_V1.CustomArgument;
+
+import me.oscardoras.menus.Menu;
+import me.oscardoras.menus.Message;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.CustomArgument;
 
 public class MenuArgument extends CustomArgument<Entry<String, Inventory>> {
 

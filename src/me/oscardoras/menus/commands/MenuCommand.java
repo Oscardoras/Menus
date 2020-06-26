@@ -1,4 +1,4 @@
-package org.bukkitplugin.menus.commands;
+package me.oscardoras.menus.commands;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;
@@ -9,15 +9,16 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.permissions.Permission;
-import org.bukkitplugin.menus.Menu;
-import org.bukkitplugin.menus.Message;
-import org.bukkitutils.command.v1_15_V1.Argument;
-import org.bukkitutils.command.v1_15_V1.CommandRegister;
-import org.bukkitutils.command.v1_15_V1.LiteralArgument;
-import org.bukkitutils.command.v1_15_V1.CommandRegister.CommandExecutorType;
-import org.bukkitutils.command.v1_15_V1.arguments.EntitySelectorArgument;
-import org.bukkitutils.command.v1_15_V1.arguments.StringArgument;
-import org.bukkitutils.command.v1_15_V1.arguments.EntitySelectorArgument.EntitySelector;
+
+import me.oscardoras.menus.Menu;
+import me.oscardoras.menus.Message;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.Argument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.CommandRegister;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.LiteralArgument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.CommandRegister.CommandExecutorType;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.arguments.EntitySelectorArgument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.arguments.StringArgument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.arguments.EntitySelectorArgument.EntitySelector;
 
 public final class MenuCommand {
 	private MenuCommand() {}

@@ -1,4 +1,4 @@
-package org.bukkitplugin.menus;
+package me.oscardoras.menus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,8 @@ import org.bukkit.Bukkit;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import org.bukkitutils.io.ConfigurationFile;
+
+import me.oscardoras.spigotutils.io.ConfigurationFile;
 
 public final class Menu {
 	private Menu() {}

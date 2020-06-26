@@ -1,4 +1,4 @@
-package org.bukkitplugin.menus;
+package me.oscardoras.menus;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;

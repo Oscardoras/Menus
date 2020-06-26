@@ -3,7 +3,7 @@ version: 1.0.0
 api-version: 1.13
 description: "A simple plugin to make menus."
 author: oscardoras
-main: org.bukkitplugin.menus.MenusPlugin
+main: me.oscardoras.menus.MenusPlugin
 permissions:
   menus:
     default: op
